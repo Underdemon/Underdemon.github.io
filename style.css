@@ -84,6 +84,24 @@ html, body
   justify-content: center;
 }
 
+.footer
+{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer i
+{
+  border-radius: 60px;
+  box-shadow: 0 0 2px #888;
+  padding: 0.5em 0.6em;
+}
+
+.footer i:hover
+{
+  filter: brightness(0.6);
+}
+
 .links
 {
   display: flex;
