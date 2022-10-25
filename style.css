@@ -34,7 +34,7 @@ html, body
 .container
 {
   display: grid;
-  grid-template-columns: 1fr 460px 600px 1fr;
+  grid-template-columns: 1fr 600px 700px 1fr;
   grid-template-areas:
     ". left right .";
   column-gap: 80px;
@@ -84,20 +84,20 @@ html, body
   justify-content: center;
 }
 
-.footer
+.carousel
 {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
-.footer i
+.carousel i
 {
   border-radius: 60px;
   box-shadow: 0 0 2px #888;
   padding: 0.5em 0.6em;
 }
 
-.footer i:hover
+.carousel i:hover
 {
   filter: brightness(0.6);
 }
