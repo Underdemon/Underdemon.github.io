@@ -78,16 +78,30 @@ html, body
   width: 180px;
 }
 
-.bookmarks
+.slider
+{
+  width: 100%;
+  max-width: 800px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide
 {
   display: flex;
   justify-content: center;
+  
+  width: 100%;
+  max-width: 800px;
+  height: 200px;
+  position: absolute;
+  transition: all 0.5s;
 }
 
 .carousel
 {
   text-align: center;
-  padding-top: 15px;
 }
 
 .carousel i
@@ -95,6 +109,12 @@ html, body
   border-radius: 60px;
   box-shadow: 0 0 2px #888;
   padding: 0.5em 0.6em;
+  cursor: pointer;
+}
+
+.carousel i:active
+{
+  transform: scale(1.1);
 }
 
 .carousel i:hover
