@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import "/catpuccin.css";
+
+:root
+{
+    --color-bg: var(--ctp-mocha-base);
+    --color-fg: var(--ctp-mocha-overlay0);
+    --color-link: var(--ctp-mocha-text);
+    --color-link-visited: var(--ctp-mocha-mauve);
+    --color-link-hover: var(--ctp-mocha-mauve);
+}
+
+body {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 0 10px;
+    font-family: "Ubuntu";
+    background: var(--color-bg);
+    color: var(--color-fg);
+}
+
+a:link
+{
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+a:visited
+{
+    color: var(--color-link-visited);
+}
+
+a:hover
+{
+    color: var(--color-link-hover);
+}
+
+.iso8601 p
+{
+    font-size: 0.84rem;
+    font-style: italic;
+}
